@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "id": "gerais",
+      "name": "Regras Gerais",
+      "description": "Regras fundamentais para convivência e permanência no servidor.",
+      "updatedAt": "2026-10-30T14:30:00.000Z",
+      "rules": [
+        {
+          "id": "gerais-1",
+          "title": "Respeito à comunidade",
+          "content": "É obrigatório manter o respeito entre jogadores e membros da equipe. Ofensas gratuitas, perseguição ou comportamento criado apenas para prejudicar a experiência de outra pessoa poderá resultar em punição."
+        },
+        {
+          "id": "gerais-2",
+          "title": "Uso de bugs",
+          "content": "É proibido utilizar bugs, falhas ou exploits para obter vantagem. Exemplos:duplicar itens;atravessar locais bloqueados;obter dinheiro de forma indevida."
+        }
+      ]
+    },
+    {
+      "id": "roleplay",
+      "name": "Roleplay",
+      "description": "Normas relacionadas à interpretação e às ações dentro do personagem.",
+      "updatedAt": "2026-10-30T14:30:00.000Z",
+      "rules": [
+        {
+          "id": "roleplay-1",
+          "title": "Valor à vida",
+          "content": "O jogador deve agir valorizando a própria vida e a vida do personagem."
+        },
+        {
+          "id": "roleplay-2",
+          "title": "Metagaming",
+          "content": "É proibido utilizar informações obtidas fora do jogo para beneficiar seu personagem dentro do servidor."
+        }
+      ]
+    }
+  ]
+}

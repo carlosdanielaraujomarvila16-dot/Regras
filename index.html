@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#d51420">
+  <title>Vibe Carioca Roleplay — Regras</title>
+  <meta name="description" content="Portal oficial de regras do Vibe Carioca Roleplay.">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./">
+        <div class="brand-logo">
+          <img class="imgur-image" data-id="hveDTeh" data-exts="png,webp,jpg,jpeg" alt="Vibe Carioca">
+          <span>VBC</span>
+        </div>
+        <div>
+          <strong>Vibe Carioca</strong>
+          <small>Roleplay • MTA:SA</small>
+        </div>
+      </a>
+      <div class="actions">
+        <button id="adminButton" class="btn ghost">Login ADM</button>
+        <button id="connectButton" class="btn red"><i></i>Conectar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">PORTAL OFICIAL • VBC</p>
+          <h1>Regras do <span>Vibe Carioca</span></h1>
+          <p class="lead">Consulte o regulamento oficial antes de entrar no servidor. Pesquise por regras, situações ou categorias.</p>
+          <div class="chips">
+            <span class="chip"><i></i>MTA:SA</span>
+            <span class="chip mono">144.225.189.145:22535</span>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="art back">
+            <img class="imgur-image" data-id="B6wKJpM" data-exts="png,webp,jpg,jpeg" alt="">
+          </div>
+          <div class="art front">
+            <img class="imgur-image" data-id="m859PFS" data-exts="gif,webp,png,jpg" alt="">
+            <b>VBC</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rules">
+      <div class="container">
+        <div class="rules-head">
+          <div>
+            <p class="kicker">REGULAMENTO</p>
+            <h2>Regras do servidor</h2>
+          </div>
+          <label class="search">
+            <span>⌕</span>
+            <input id="ruleSearch" type="search" placeholder="Pesquisar regras...">
+            <button id="clearSearch" type="button">×</button>
+          </label>
+        </div>
+
+        <div id="repoInfo" class="repo-info" hidden></div>
+        <p id="searchInfo" class="search-info" hidden></p>
+        <div id="rulesContainer" class="rules-list"></div>
+
+        <div id="emptyState" class="empty" hidden>
+          <strong>Nenhuma regra encontrada</strong>
+          <span>Tente pesquisar por outra palavra.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><strong>Vibe Carioca Roleplay</strong><span>Mais que virtual.</span></div>
+      <p>© 2024 Vibe Carioca Roleplay</p>
+    </div>
+  </footer>
+
+  <div id="adminModal" class="modal">
+    <div class="backdrop" data-close="adminModal"></div>
+    <section class="panel small">
+      <button class="x" data-close="adminModal">×</button>
+      <p class="kicker">ADMINISTRAÇÃO</p>
+      <h2>Editar regras pelo GitHub</h2>
+      <p class="desc">O GitHub Pages não executa backend. Para não expor sua senha no JavaScript, o acesso administrativo usa a autenticação e as permissões da própria conta GitHub.</p>
+      <div class="notice">
+        <strong>Como funciona</strong>
+        <span>O botão abre <code>rules.json</code> no editor do repositório. Só contas com permissão de escrita conseguem salvar.</span>
+      </div>
+      <button id="openGitHubEditor" class="btn red full">Abrir editor no GitHub</button>
+      <button id="urlCompilerButton" class="btn dark full">Compilador de URL</button>
+      <p id="adminRepoHint" class="hint"></p>
+    </section>
+  </div>
+
+  <div id="urlModal" class="modal">
+    <div class="backdrop" data-close="urlModal"></div>
+    <section class="panel">
+      <button class="x" data-close="urlModal">×</button>
+      <p class="kicker">COMPILADOR DE URL</p>
+      <h2>Converter caminho para URL pública</h2>
+      <p class="desc">Converte um caminho local ou relativo para o endereço público deste GitHub Pages. O arquivo precisa existir no repositório.</p>
+      <form id="urlForm" class="form">
+        <label><span>URL crua / caminho local</span><input id="rawUrl" required maxlength="2000" placeholder="file:///C:/Users/.../index.html"></label>
+        <label><span>Arquivo no repositório (opcional)</span><input id="repoPath" maxlength="300" placeholder="index.html"></label>
+        <p id="urlError" class="error" hidden></p>
+        <button class="btn red full">Compilar URL</button>
+      </form>
+      <div id="compiledBox" class="compiled" hidden>
+        <small>URL PÚBLICA</small>
+        <div><input id="compiledUrl" readonly><button id="copyCompiledUrl" class="btn dark" type="button">Copiar</button></div>
+      </div>
+    </section>
+  </div>
+
+  <div id="toasts" class="toasts"></div>
+
+  <script src="./config.js"></script>
+  <script src="./script.js" defer></script>
+</body>
+</html>
