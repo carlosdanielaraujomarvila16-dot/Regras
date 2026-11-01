@@ -2,20 +2,76 @@
   "categories": [
     {
       "id": "gerais",
-      "name": "Regras Gerais",
+      "name": "Regras Básicas",
       "description": "Regras fundamentais para convivência e permanência no servidor.",
       "updatedAt": "2026-10-30T14:30:00.000Z",
       "rules": [
         {
           "id": "gerais-1",
-          "title": "Respeito à comunidade",
-          "content": "É obrigatório manter o respeito entre jogadores e membros da equipe. Ofensas gratuitas, perseguição ou comportamento criado apenas para prejudicar a experiência de outra pessoa poderá resultar em punição."
+          "title": "Roleplay",
+          "content": "Roleplay: É a interpretação de uma persona, no caso de GTA RP, estamos nos referindo a interpretarmos nós mesmos dentro do game."
         },
         {
           "id": "gerais-2",
-          "title": "Uso de bugs",
-          "content": "É proibido utilizar bugs, falhas ou exploits para obter vantagem. Exemplos:duplicar itens;atravessar locais bloqueados;obter dinheiro de forma indevida."
+          "title": "Anti Roleplay",
+          "content": "Anti-Roleplay: Acontece quando durante o roleplay, você para de interpretar seu personagem, falando ou agindo de forma contrária ao roleplay."
         }
+        {
+          "id": "gerais-3",
+          "title": "Bunny Hop",
+          "content": "É a prática de pular para se mover mais rápido, abusando de uma mecânica do jogo, em benefício próprio."
+        }
+        {
+          "id": "gerais-4",
+          "title": "Chicken Running",
+          "content": "É a prática de correr de forma irregular/irreal, para evitar tiras ou ser atingido por golpes físicos, um dos exemplos clássicos é correr em Zig Zag."
+        }
+        {
+          "id": "gerais-5",
+          "title": "Random Deathmatch",
+          "content": "É a prática de matar e/ou agredir jogadores sem contexto roleplay."
+        }
+        {
+          "id": "gerais-6",
+          "title": "Vehicle Deathmatch",
+          "content": "É a prática de usar um veículo para matar outro jogador."
+        }
+        {
+          "id": "gerais-7",
+          "title": "Metagaming",
+          "content": "É a prática de utilizar meios de informações externos ao roleplay, para obter informações que o beneficiem no roleplay."
+        }
+        {
+          "id": "gerais-8",
+          "title": "Powergaming",
+          "content": "É a prática de abusar das mecânicas/físicas do jogo, para obter vantagens."
+        }
+        {
+          "id": "gerais-9",
+          "title": "Combat Logging",
+          "content": "É a prática de sair do jogo para evitar alguma consequência de roleplay, como morte, prisão e perda de itens."
+        }
+        {
+          "id": "gerais-10",
+          "title": " Revenge Kill",
+          "content": "É a prática de se vingar de um jogador que tenha matado você."
+        }
+        {
+          "id": "gerais-11",
+          "title": "Amor à Vida",
+          "content": "É a prática de tratar a vida do seu personagem como se fosse única, evitando se colocar em situações de risco de morte propositalmente."
+        }
+        {
+          "id": "gerais-12",
+          "title": "OOC",
+          "content": "É a sigla usada para se referir ao que acontece fora do personagem (out-of-character), tudo que acontece por fora, discord, whatsapp etc, se refere à OOC."
+        }
+        {
+          "id": "gerais-12",
+          "title": "IC",
+          "content": "É a sigla usada para se referir ao personagem (in-character), tudo que acontece com seu personagem se refere à IC."
+        }
+        
       ]
     },
     {
